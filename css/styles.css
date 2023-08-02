@@ -1,0 +1,182 @@
+
+h1, h2, h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 3rem;
+}
+
+#title {
+	background-color:#FFE1E1;
+	font-family: 'Ubuntu', sans-serif;	
+}
+
+/* navbar */
+
+.navbar-brand {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight:700;
+	font-size: 3rem;
+	line-height: 1.5;
+	color: #e7541a;
+}
+
+.navbar  {
+	padding: 0 0 50px 0;
+}
+
+.nav-item {
+	font-size: 1.2rem;
+	padding: 10px;
+}
+
+/* heading */
+
+.title-meet {
+	margin-top: 100px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+.container-fluid{
+	padding: 3% 15%;
+}
+
+@media (max-width:1028px) {
+	#title {
+		text-align: center;
+	}
+	.phone-img {
+		transform: rotate(0);
+	}
+}
+
+
+/* Download Button */
+.downloadbutton {
+	margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.phone-img {
+	width: 70%;
+	transform: rotate(30deg);
+	padding-left: 10px;
+}
+
+
+/* icons & features */
+.icon {
+	font-size: 500%;
+	color: #e7541a;
+	margin-bottom: 50px;
+}
+
+.icon:hover {
+	color: #FFE1E1;
+}
+
+#features {
+	margin: 100px 0;
+	text-align: center;
+}
+
+
+.feature-title {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+.feature-text {
+	color: #8f8f8f;
+}
+
+/* Testimocial Section */
+
+#testimonials {
+	text-align: center;
+	background-color: #FFE1E1;
+	color: black;
+}
+
+.testimonial-img {
+	width: 20%;
+	border-radius: 100%;
+	margin: 20px;
+}
+
+.slide-icon {
+	color: #e7541a;
+	font-size: 2rem;
+	
+}
+
+.carousel-item {
+	padding: 7% 15%;
+}
+
+#press {
+	background-color: #FFE1E1;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.press-img {
+	width: 10%;
+	margin: 0 30px;
+}
+
+/* pricing */
+
+#pricing {
+	text-align: center;
+	margin: 100px;
+}
+
+.priority {
+	color: #e7541a;
+	font-weight: 700;
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+}
+
+.price-big {
+	padding: 30px;
+}
+
+.go-up {
+	margin-bottom: 12px;
+}
+
+.sm-text {
+	color: #e7541a;
+	padding: 50px;
+}
+
+
+/* footer */
+
+#cta {
+	text-align: center;
+	background-color: #FFE1E1;
+	padding: 50px 0;
+}
+
+.title-find {
+	font-family: 'Montserrat', sans-serif;
+	color: #e7541a;
+	font-weight: 700;
+	font-size: 3rem;
+	padding: 70px 70px 30px;
+}
+
+#footer {
+	text-align: center;
+	margin: 100px auto 50px;
+}
+
+.icon-footer {
+	margin: auto 10px 15px 10px;
+}
